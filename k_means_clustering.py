@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun May 14 01:37:30 2017
-
-@author: anirudh
-"""
 
 from sklearn.cluster import KMeans
 import time
@@ -38,8 +33,7 @@ print("Time taken for K Means clustering: ", elapsed, "seconds.")
 index2word =[]
 for i in range(0,len(num_to_word)):
     index2word.append(num_to_word[i])
-
-# a cluster number                                                                                            
+                                                                                           
 word_centroid_map = dict(zip(index2word, idx ))
 
 # For the first 10 clusters

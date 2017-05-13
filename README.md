@@ -2,8 +2,9 @@
 Word Clusters using Word Vectors and Vocabulary
 
 **Requirements**
-  Vocabulary.txt, WordEmbeddings.txt
+  vocabulary.txt, embeddings.txt
   
 **Packages**
   Sklearn, Numpy
 
+####Preferable Version - Python 3

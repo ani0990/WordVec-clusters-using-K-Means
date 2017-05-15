@@ -19,7 +19,7 @@ start = time.time() # Start time
 # Set "k" (num_clusters) to be 1/5th of the vocabulary size, or an
 # average of 5 words per cluster
 word_vectors = wv
-num_clusters = int(word_vectors.shape[0] / 10)
+num_clusters = int(word_vectors.shape[0] / 5)
 
 # Initalize a k-means object and use it to extract centroids
 kmeans_clustering = KMeans( n_clusters = num_clusters )
